@@ -181,7 +181,32 @@ img
     &__button
         width: 100%
         min-height: 70px
+        margin-bottom: 30px
         @media (max-width: 1200px)
             font-size: 13px
         @media (max-width: 768px)
             font-size: 16px
+    &-wrap
+        display: flex
+        width: 100%
+        font-size: 15px
+        line-height: 24px
+        @media (max-width: 768px)
+                flex-direction: column
+        &__text_left
+            width: 50%
+            margin-right: 130px
+            @media (max-width: 768px)
+                padding-bottom: 5px
+        &__text_right
+            width: 50%
+        &__call
+            display: block
+        &__phone
+            text-decoration: none
+            color: $accent
+            +bold
+            font-weight: 400
+        
+
+        

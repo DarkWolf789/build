@@ -345,6 +345,7 @@ img {
 .offer__button {
   width: 100%;
   min-height: 70px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -357,5 +358,50 @@ img {
   .offer__button {
     font-size: 16px;
   }
+}
+
+.offer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .offer-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.offer-wrap__text_left {
+  width: 50%;
+  margin-right: 130px;
+}
+
+@media (max-width: 768px) {
+  .offer-wrap__text_left {
+    padding-bottom: 5px;
+  }
+}
+
+.offer-wrap__text_right {
+  width: 50%;
+}
+
+.offer-wrap__call {
+  display: block;
+}
+
+.offer-wrap__phone {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
