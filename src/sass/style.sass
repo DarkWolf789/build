@@ -17,6 +17,29 @@ img
     @media (max-width: 640px)
         width: 90%
 
+.button
+    background-color: $buttons
+    color: $accent
+    padding: 18px 48px
+    border-radius: 10px
+    border: none
+    +bold
+    cursor: pointer
+    &:hover
+        background-color: lighten($buttons, 20%)
+
+.input 
+    border: 1px solid $border-input
+    border-radius: 10px
+    padding: 25px
+    font-size: 20px 15px
+
+.section-title
+    font-size: 30px
+    +bold
+    text-align: center
+    line-height: 45px
+
 .header
     padding: 20px 0
     &-block
@@ -50,22 +73,6 @@ img
         margin-left: 30px
         font-size: 13px
 
-.button
-    background-color: $buttons
-    color: $accent
-    padding: 18px 48px
-    border-radius: 10px
-    border: none
-    +bold
-    cursor: pointer
-    &:hover
-        background-color: lighten($buttons, 20%)
-
-.input 
-    border: 1px solid $border-input
-    border-radius: 10px
-    padding: 25px
-    font-size: 20px 15px
     
 .main
     background-color: $grey
@@ -207,8 +214,26 @@ img
             color: $accent
             +bold
             font-weight: 400
-        
 
+.portfolio
+    padding: 100px 0
+    background: $grey url('../img/portfolio-bg.png') left repeat-y
+    background-size: 50%
+    &__title
+        margin-bottom: 100px
+        color: $accent
+    &__arrows
+        max-width: 120px
+        display: flex
+        justify-content: space-between
+        margin: auto
+        margin-top: 70px
+
+.arrows__left, .arrows__right
+    cursor: pointer
+        
+.slider__image
+    margin: auto
 
 .modal
     position: fixed
