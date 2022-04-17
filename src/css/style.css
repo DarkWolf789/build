@@ -570,6 +570,93 @@ img {
   transition: .2s;
 }
 
+.steps {
+  padding-bottom: 120px;
+}
+
+.steps__title {
+  margin-bottom: 60px;
+}
+
+.steps__subtitle {
+  margin-bottom: 75px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon {
+  text-align: center;
+  position: relative;
+}
+
+.icon:last-child::after {
+  display: none;
+}
+
+.icon::after {
+  content: '';
+  top: -10px;
+  right: -95px;
+  position: absolute;
+  display: block;
+  width: 72px;
+  height: 25px;
+  background-image: url("../img/arrow-bounce.png");
+}
+
+.icon__image {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ffd200;
+  background-color: #fff;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.icon__image img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.icon__text {
+  max-width: 140px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.notice {
+  background-color: #ffc000;
+  padding: 100px 0;
+}
+
+.notice__text {
+  line-height: 50px;
+  text-align: center;
+  font-size: 32px;
+  max-width: 750px;
+  margin: auto;
+  font-weight: 300;
+}
+
 .modal {
   position: fixed;
   left: 0;
