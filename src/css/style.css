@@ -478,6 +478,14 @@ img {
           justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .card {
   text-align: center;
   border: 1px solid #e8e8e8;

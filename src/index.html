@@ -7,6 +7,7 @@
     <title>HouseFix</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,7 +33,7 @@
         <section class="main">
             <div class="container">
                 <div class="main-block">
-                    <div class="main-text">
+                    <div class="main-text wow animate__animated animate__fadeInLeft" data-wow-delay=".1s">
                         <h1 class="main-text__title">Dekorace vnitřních prostorů "na klíč"</h1>
                         <span class="main-text__subtitle">se zárukou kvality stanovené ve smlouvě</span>
                         <ul class="main-list">
@@ -56,7 +57,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="main-image">
+                    <div class="main-image wow animate__animated animate__fadeInRight" data-wow-delay=".6s">
                         <img src="img/main-image.png" alt="Rozpoložení bytu">
                     </div>
                 </div>
@@ -65,7 +66,7 @@
 
         <section class="offer">
             <div class="container">
-                <div class="offer-block">
+                <div class="offer-block wow animate__animated animate__fadeInLeft" data-wow-delay=".7s">
                     <h2 class="offer-title">Bezplatně vypracujeme design-projekt pro Váš domov a realizujeme ho!</h2>
                     <span class="offer-subtitle">Zanechte poptávku pro vypracování bezplatného design-projektu!</span>
                     <form action="#" class="form offer__form">
@@ -89,9 +90,9 @@
 
         <section class="portfolio">
             <div class="container">
-                <h2 class="section-title portfolio__title"> Za dobu práce od roku 2007, <br> jsme realizovali více než 500 oprav bytů a domů</h2>
+                <h2 class="section-title portfolio__title wow animate__animated animate__fadeInUp" data-wow-delay=".1s"> Za dobu práce od roku 2007, <br> jsme realizovali více než 500 oprav bytů a domů</h2>
 
-                <div class="slider">
+                <div class="slider wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                     <div class="slider__item"><img class="slider__image" src="img/portfolio1.jpg" alt="Obývací pokoj s židlemi"></div>
                     <div class="slider__item"><img class="slider__image" src="img/portfolio2.jpg" alt="Obývací pokoj s gaučem"></div>
                     <div class="slider__item"><img class="slider__image" src="img/portfolio3.jpg" alt="Ložnice"></div>
@@ -109,10 +110,10 @@
 
         <section class="price">
             <div class="container">
-                <h2 class="section-title price__title">Máme velmi flexibilní systém slev <br> pro komplexní práce!</h2>
-                <span class="section-subtitle price__subtitle">Ceny za naše služby</span>
+                <h2 class="section-title price__title wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Máme velmi flexibilní systém slev <br> pro komplexní práce!</h2>
+                <span class="section-subtitle price__subtitle wow animate__animated animate__fadeInUp" data-wow-delay=".3s">Ceny za naše služby</span>
                 <div class="cards">
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <div class="card__img">
                             <img src="img/koupelna.jpg" alt="koupelna">
                         </div>
@@ -121,7 +122,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
                         <div class="card__img">
                             <img src="img/pokoj.jpg" alt="pokoj">
                         </div>
@@ -130,7 +131,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                         <div class="card__img">
                             <img src="img/kancelar.jpg" alt="kancelar">
                         </div>
@@ -139,7 +140,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                         <div class="card__img">
                             <img src="img/rekonstrukce.jpg" alt="rekonstrukce">
                         </div>
@@ -148,7 +149,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                         <div class="card__img">
                             <img src="img/kuchyne.jpg" alt="kuchyne">
                         </div>
@@ -157,7 +158,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".6s">
                         <div class="card__img">
                             <img src="img/chata.jpg" alt="chata">
                         </div>
@@ -180,7 +181,8 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
