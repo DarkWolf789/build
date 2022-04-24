@@ -27,6 +27,20 @@ $(document).ready(function(){
     modal.removeClass('modal_active');
   });
 
+  // Validace formulářů
+
+  $('#brief-form').validate({
+    rules: {
+      username: "required",
+      phone: "required",
+    },
+
+    messages: {
+      username: "Uveďte Vaše jméno",
+      phone: "Uveďte Vaše telefonní číslo",
+    }
+  });
+
   // Napojení slideru
   $('.slider').slick({
     slidesToShow: 3,
